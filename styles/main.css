@@ -394,7 +394,7 @@ a[class] {
   background-repeat: no-repeat;
 }
 .icon--yellow-arrow::after {
-  background-image: url(../../icons/arrow-top-right_yellow.svg);
+  background-image: url(/Future-Tech/icons/arrow-top-right_yellow.svg);
 }
 
 .logo {
