@@ -20,7 +20,7 @@
     &--yellow-arrow {
         
         &::after{
-            background-image: url(/Future-Tech/icons/arrow-top-right_yellow.svg);
+            background-image: url(/Future-Tech/icons/arrow-top-right_yellow.svg); //<-- The path is like this because GitHub doesn't recognize icons otherwise
         }
         
     }
