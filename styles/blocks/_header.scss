@@ -5,6 +5,10 @@
         padding-block: rem(20);
         text-align: center;
         border-bottom: var(--border);
+
+        @include mobile {
+            padding: rem(14);
+        }
     }
     
     &__body {
@@ -23,6 +27,16 @@
     &__overlay {
         @include mobile-above {
             display: contents;
+        }
+
+        @include mobile {
+
+            
+            &:not(.is-active) {
+                @include hide;
+
+                translate: 100%;
+            }
         }
     }
 
