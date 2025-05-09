@@ -279,6 +279,10 @@ svg * {
   }
 }
 
+html.is-lock {
+  overflow: hidden;
+}
+
 body {
   font-size: clamp(0.875rem, 0.8112745098rem + 0.2614379085vw, 1.125rem);
   font-family: var(--font-family-base);
@@ -508,6 +512,11 @@ button[aria-label]::before {
 .header__body {
   padding-block: 1.5rem;
   background-color: var(--color-dark-10);
+}
+@media (width <= 47.99875rem) {
+  .header__body {
+    padding-block: 1.25rem;
+  }
 }
 .header__body-inner {
   display: flex;
